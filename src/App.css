@@ -1,0 +1,14 @@
+.app {
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  font-family: "Segoe UI", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #707070;
+}
+
+.app img {
+  position: absolute;
+  width: 1439px;
+  height: 3507px;
+  object-fit: cover;
+}

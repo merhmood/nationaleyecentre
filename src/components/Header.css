@@ -1,0 +1,20 @@
+.header {
+  position: absolute;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 1439px;
+}
+.header .logo img {
+  margin-top: 5px;
+  width: 135px;
+  height: 75px;
+}
+.header .nav-links {
+  margin: 20px 0px 0px 300px;
+  font-size: 13px;
+}
+.header .nav-links li {
+  display: inline;
+  padding: 10px;
+  cursor: pointer;
+}

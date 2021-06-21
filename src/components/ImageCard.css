@@ -1,0 +1,26 @@
+.image-card {
+  position: absolute;
+  top: 550px;
+  left: 460px;
+  width: 500px;
+  height: 200px;
+  border-style: solid;
+  border-radius: 50px;
+  border-width: 2px;
+  border-color: #cccaca;
+  background-color: white;
+}
+.image-card .image {
+  margin: 20px 0px 0px 45px;
+  width: 150px;
+  height: 150px;
+  border-style: solid;
+  border-color: #1d680f;
+  border-width: 5px;
+  border-radius: 150px;
+  object-fit: cover;
+  object-position: -25px 0px;
+}
+.image .text{
+    margin: ;
+}
