@@ -24,7 +24,7 @@ const Slider = () => {
             setSliderImage(sliderImageArray.one)
         }
     }
-    const sliderShowChange = '';
+    let sliderShowChange = '';
 
     const sliderNavHandler = imgUrl => {
         setSliderImage(imgUrl)
@@ -32,12 +32,14 @@ const Slider = () => {
     }
 
     return (
-        <div className="slider" onLoad={sliderShowChange = setTimeout(sliderShow, 4000)}>
+        <div className="slider">
            <motion.img 
            initial={{opacity: 0}}
            animate={{opacity: 1}}
            transition={{duration: 0.5}}
-           src={sliderImage === '' ? sliderNavHandler(sliderImageArray.one) : sliderImage} alt="" className='slider-img'/>
+           src={sliderImage === '' ? sliderNavHandler(sliderImageArray.one) : sliderImage} alt="" className='slider-img'
+           onLoad={sliderShowChange = setTimeout(sliderShow, 4000)}
+           />
            <div className='slider-nav'>
                <p onClick={()=>sliderNavHandler(sliderImageArray.one)} className={sliderImage === sliderImageArray.one ? '' :'slider-nav-changes'}></p>
                <p onClick={()=>sliderNavHandler(sliderImageArray.two)} className={sliderImage === sliderImageArray.two ? '' :'slider-nav-changes'}></p>
