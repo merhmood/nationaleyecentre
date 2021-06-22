@@ -1,0 +1,32 @@
+.image-table {
+  position: absolute;
+  top: 54rem;
+  width: 98.9rem;
+  height: 24rem;
+  overflow: hidden;
+}
+.image-table .image-wrapper {
+  position: absolute;
+  margin-left: -1rem;
+  display: grid;
+  grid-template-columns: 14.5rem 14.5rem 14.5rem 14.5rem 14.5rem 14.5rem 14.5rem;
+  width: 98.9rem;
+  height: 24rem;
+}
+
+.image-table .image-wrapper div {
+  margin-top: -0.3rem;
+}
+
+.image-table .image-wrapper .image {
+  width: 15.05rem;
+  height: 12.05rem;
+  object-fit: cover;
+}
+.image-table .overlay {
+  position: absolute;
+  width: 98.9rem;
+  height: 23.8rem;
+  background-color: #1d680f;
+  opacity: 0.4;
+}
