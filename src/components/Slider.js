@@ -24,7 +24,7 @@ const Slider = () => {
             setSliderImage(sliderImageArray.one)
         }
     }
-    const sliderShowChange = setTimeout(sliderShow, 4000)
+    const sliderShowChange = '';
 
     const sliderNavHandler = imgUrl => {
         setSliderImage(imgUrl)
@@ -32,7 +32,7 @@ const Slider = () => {
     }
 
     return (
-        <div className="slider">
+        <div className="slider" onLoad={sliderShowChange = setTimeout(sliderShow, 4000)}>
            <motion.img 
            initial={{opacity: 0}}
            animate={{opacity: 1}}
