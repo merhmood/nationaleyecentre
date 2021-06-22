@@ -5,16 +5,21 @@
   width: 98.9rem;
 }
 .header .logo img {
-  margin: 0.4rem 0rem 0rem 3rem;
+  margin: 0.4rem 0rem 0rem 5rem;
   width: 6rem;
   height: 5rem;
 }
 .header .nav-links {
-  margin: 1rem 0rem 0rem 22rem;
+  margin: 1.5rem 0rem 0rem 23rem;
+  width: 50rem;
   font-size: 13px;
+}
+.header .nav-links ul {
+  margin-left: 15rem;
+  width: 32rem;
 }
 .header .nav-links li {
   display: inline;
-  padding: 10px;
+  padding: 1.5rem;
   cursor: pointer;
 }
