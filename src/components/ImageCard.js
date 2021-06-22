@@ -6,8 +6,8 @@ export const ImageCard = () => {
         <div className='image-card'>
            <img src="https://nationaleyecenter.s3.af-south-1.amazonaws.com/Doctor+Alhassan.png" alt="ImageCard"  className='image'/>
            <div className='text'>
-               <h3>CHIEF MEDICAL DIRECTOR</h3>
-               <h3>DR. Alhassan Mohammad</h3>
+               <h6>CHIEF MEDICAL DIRECTOR</h6>
+               <p>DR. Alhassan Mohammad</p>
             </div> 
         </div>
     )

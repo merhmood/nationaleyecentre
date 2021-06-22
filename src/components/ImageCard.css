@@ -1,23 +1,37 @@
 .image-card {
   position: absolute;
-  top: 550px;
-  left: 460px;
-  width: 500px;
-  height: 200px;
+  top: 37rem;
+  left: 33rem;
+  width: 36rem;
+  height: 13rem;
   border-style: solid;
-  border-radius: 50px;
-  border-width: 2px;
+  border-radius: 3.5rem;
+  border-width: 0.11rem;
   border-color: #cccaca;
   background-color: white;
 }
 .image-card .image {
-  margin: 20px 0px 0px 45px;
-  width: 150px;
-  height: 150px;
+  margin: 1.3rem 0rem 0rem 2.5rem;
+  width: 10rem;
+  height: 10rem;
   border-style: solid;
   border-color: #1d680f;
   border-width: 5px;
   border-radius: 150px;
   object-fit: cover;
   object-position: -25px 0px;
+  box-shadow: 0rem 0.3rem 0.5rem rgba(0, 0, 0, 0.16);
+}
+.image-card .text {
+  font-size: 1.8rem;
+  margin: 4.7rem 0rem 0rem 17rem;
+}
+.image-card .text h6 {
+  margin-bottom: -0.5rem;
+  font-weight: 500;
+  color: #1d680f;
+}
+.image-card .text p {
+  font-size: 1.23rem;
+  font-weight: 500;
 }

@@ -2,15 +2,15 @@
   position: absolute;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  width: 1439px;
+  width: 98.9rem;
 }
 .header .logo img {
-  margin-top: 5px;
-  width: 135px;
-  height: 75px;
+  margin: 0.4rem 0rem 0rem 3rem;
+  width: 6rem;
+  height: 5rem;
 }
 .header .nav-links {
-  margin: 20px 0px 0px 300px;
+  margin: 1rem 0rem 0rem 22rem;
   font-size: 13px;
 }
 .header .nav-links li {

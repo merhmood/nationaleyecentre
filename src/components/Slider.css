@@ -1,14 +1,14 @@
 .slider .slider-img {
   position: absolute;
-  width: 1439x;
-  height: 500px;
+  width: 98.9rem;
+  height: 35rem;
   margin-top: 90px;
 }
 .slider-nav {
   position: absolute;
-  top: 450px;
-  left: 1390px;
-  height: 200px;
+  top: 30rem;
+  left: 95rem;
+  height: 75rem;
   padding-bottom: 10px;
 }
 .slider-nav p {
