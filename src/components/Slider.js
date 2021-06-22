@@ -5,12 +5,15 @@ import './Slider.css'
 
 const Slider = () => {
 
+    let sliderShowChange = '';
+
     const sliderImageArray = {
 
         one:'https://nationaleyecenter.s3.af-south-1.amazonaws.com/slider/img4.jpg',
         two: 'https://nationaleyecenter.s3.af-south-1.amazonaws.com/slider/theatre-with-indian-drs.jpg',
         three: 'https://nationaleyecenter.s3.af-south-1.amazonaws.com/slider/FB_IMG_16206377968709601-1.jpg'
     }
+
     const [sliderImage, setSliderImage] = useState('')
 
     const sliderShow = () =>{
@@ -24,7 +27,10 @@ const Slider = () => {
             setSliderImage(sliderImageArray.one)
         }
     }
-    let sliderShowChange = '';
+    const startSlider = () => {
+        sliderShowChange = setTimeout(sliderShow, 4000)
+    }
+
 
     const sliderNavHandler = imgUrl => {
         setSliderImage(imgUrl)
@@ -38,7 +44,7 @@ const Slider = () => {
            animate={{opacity: 1}}
            transition={{duration: 0.5}}
            src={sliderImage === '' ? sliderNavHandler(sliderImageArray.one) : sliderImage} alt="" className='slider-img'
-           onLoad={sliderShowChange = setTimeout(sliderShow, 4000)}
+           onLoad={startSlider}
            />
            <div className='slider-nav'>
                <p onClick={()=>sliderNavHandler(sliderImageArray.one)} className={sliderImage === sliderImageArray.one ? '' :'slider-nav-changes'}></p>
