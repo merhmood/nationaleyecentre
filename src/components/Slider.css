@@ -3,14 +3,14 @@
   margin-bottom: 13rem;
 }
 .slider .slider-img {
-  width: 89.97rem;
+  width: 98.9rem;
   height: 35rem;
   object-fit: cover;
 }
 .slider-nav {
   position: absolute;
   top: 27rem;
-  left: 85rem;
+  left: 95rem;
   height: 5rem;
   padding-bottom: 10px;
 }
