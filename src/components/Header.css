@@ -1,7 +1,7 @@
 .header {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  width: 89.97rem;
+  width: 98.9rem;
 }
 .header .logo img {
   margin: 0.4rem 0rem 0rem 3rem;
