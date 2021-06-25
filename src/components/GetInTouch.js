@@ -1,9 +1,11 @@
 import React from 'react'
 
+import './GetInTouch.css'
+
 const GetInTouch = () => {
     return (
-        <div>
-            <h5>GET IN TOUCH</h5>
+        <div className='get-in-touch'>
+            <h6>GET IN TOUCH</h6>
             <div>
                 <img src="" alt="socialMedia" />
                 <p>08165906309, 09071666691</p>

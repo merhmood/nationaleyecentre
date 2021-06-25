@@ -1,4 +1,12 @@
 .clinical-services {
+  padding: 1.3rem;
+}
+.clinical-services h6 {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.clinical-services p {
+  font-size: 0.8rem;
 }
 .clinical-services-link {
   display: grid;

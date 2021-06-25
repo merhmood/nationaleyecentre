@@ -15,7 +15,7 @@ const Footer = () => {
                 <ClinicalServices />
                 <GetInTouch />
             </div>
-            <p className='copyright'>Copyright  </p>
+            <p className='copyright'>Copyright &copy; 2021 National Eye Center. All rights reserved</p>
         </footer>
     )
 }

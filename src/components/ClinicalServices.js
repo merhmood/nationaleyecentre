@@ -4,7 +4,7 @@ import './ClinicalServices.css'
 const ClinicalServices = () => {
     return (
         <div className='clinical-services'>
-            <h5>CLINICAL SERVICES</h5>
+            <h6>CLINICAL SERVICES</h6>
             <div className='clinical-services-link'>
                 <p>Primary care clinic</p>
                 <p>Cornea and anterior segment</p>

@@ -1,9 +1,11 @@
 import React from 'react'
 
+import './About.css'
+
 const About = () => {
     return (
-        <div>
-            <h5>ABOUT NEC</h5>
+        <div className='about'>
+            <h6>ABOUT NEC</h6>
             <p>The need for the establishment of the Hospital cannot be far fetched from the revelation of a WHO statistics that about 1 million Nigerians were blind, two-thirds of whom can either be cured or prevented from going blind.</p>
         </div>
     )
