@@ -1,14 +1,17 @@
+.slider {
+  position: relative;
+  margin-bottom: 13rem;
+}
 .slider .slider-img {
-  position: absolute;
-  width: 98.9rem;
+  width: 89.97rem;
   height: 35rem;
-  margin-top: 90px;
+  object-fit: cover;
 }
 .slider-nav {
   position: absolute;
-  top: 30rem;
-  left: 95rem;
-  height: 75rem;
+  top: 27rem;
+  left: 85rem;
+  height: 5rem;
   padding-bottom: 10px;
 }
 .slider-nav p {

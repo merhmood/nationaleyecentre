@@ -1,15 +1,14 @@
 .image-table {
-  position: absolute;
-  top: 54rem;
-  width: 98.9rem;
-  height: 24rem;
+  position: relative;
+  width: 89.97rem;
+  height: 22.8rem;
   overflow: hidden;
+  margin-bottom: 4rem;
 }
 .image-table .image-wrapper {
-  position: absolute;
-  margin-left: -1rem;
+  margin-left: -2rem;
   display: grid;
-  grid-template-columns: 14.5rem 14.5rem 14.5rem 14.5rem 14.5rem 14.5rem 14.5rem;
+  grid-template-columns: 13.5rem 13.5rem 13.5rem 13.5rem 13.5rem 13.5rem 13.5rem;
   width: 98.9rem;
   height: 24rem;
 }
@@ -25,8 +24,9 @@
 }
 .image-table .overlay {
   position: absolute;
+  top: 0rem;
   width: 98.9rem;
-  height: 23.8rem;
+  height: 50rem;
   background-color: #1d680f;
   opacity: 0.4;
 }

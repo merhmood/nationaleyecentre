@@ -1,14 +1,11 @@
 .app {
   margin: 0px;
   padding: 0px;
-  position: relative;
   font-family: "Segoe UI", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: #707070;
-}
-
-.app img {
-  position: absolute;
-  width: 98.9rem;
-  height: 3507px;
-  object-fit: cover;
+  width: 89.97rem;
+  height: 200rem;
+  background-image: url("https://nationaleyecenter.s3.af-south-1.amazonaws.com/Hexagon-dotted-connect-line-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }

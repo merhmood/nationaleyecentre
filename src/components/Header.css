@@ -1,25 +1,25 @@
 .header {
-  position: absolute;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  width: 98.9rem;
+  width: 89.97rem;
 }
 .header .logo img {
-  margin: 0.4rem 0rem 0rem 5rem;
+  margin: 0.4rem 0rem 0rem 3rem;
   width: 6rem;
   height: 5rem;
+  object-fit: cover;
 }
 .header .nav-links {
-  margin: 1.5rem 0rem 0rem 23rem;
-  width: 50rem;
+  margin: 1.5rem 0rem 0rem 25rem;
+  width: 53rem;
   font-size: 13px;
 }
 .header .nav-links ul {
-  margin-left: 15rem;
-  width: 32rem;
+  padding-left: 24rem;
+  width: 27rem;
 }
 .header .nav-links li {
   display: inline;
-  padding: 1.5rem;
+  padding: 1.3rem;
   cursor: pointer;
 }

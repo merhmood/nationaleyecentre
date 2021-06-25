@@ -1,0 +1,59 @@
+.articles {
+  margin-top: 4rem;
+  width: 89.97rem;
+  height: 38rem;
+  background-color: white;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-color: #cccaca;
+  border-width: 2px;
+}
+
+.articles h4 {
+  margin-top: 3rem;
+  color: #1d680f;
+  text-align: center;
+}
+
+.articles .underline {
+  margin-left: 44rem;
+  width: 2.5rem;
+  height: 0.25rem;
+  background-color: #1d680f;
+}
+.articles .article-container {
+  display: grid;
+  grid-template-columns: 21.5rem 21.5rem 21.5rem 21.5rem;
+  padding-left: 0.5rem;
+}
+.articles .article-container .article {
+  margin: 5rem 0rem 0rem 2.5rem;
+  border-style: solid;
+  border-color: #707070;
+  border-width: 1px;
+  border-radius: 1rem;
+  box-shadow: 0rem 1rem 1rem rgba(0, 0, 0, 0.04);
+}
+.articles .article-container .article img {
+  width: 18.9rem;
+  height: 10rem;
+  border-radius: 0.88rem 0.88rem 0rem 0rem;
+  object-fit: cover;
+}
+.articles .article-container .article h4 {
+  margin: 0.9rem 1rem;
+  color: #707070;
+  text-align: left;
+}
+
+.articles .article-container .article h5 {
+  margin: 0.9rem 1rem;
+  color: #1d680f;
+}
+.articles .article-container .article p {
+  margin: 0.9rem 1rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 0.78rem;
+}

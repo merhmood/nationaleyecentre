@@ -1,7 +1,7 @@
 .image-card {
   position: absolute;
-  top: 37rem;
-  left: 33rem;
+  top: 38rem;
+  left: 30rem;
   width: 36rem;
   height: 13rem;
   border-style: solid;
@@ -20,11 +20,11 @@
   border-radius: 150px;
   object-fit: cover;
   object-position: -25px 0px;
-  box-shadow: 0rem 0.3rem 0.5rem rgba(0, 0, 0, 0.16);
+  box-shadow: 0.2rem 0.4rem 0.5rem rgba(63, 44, 44, 0.2);
 }
 .image-card .text {
   font-size: 1.8rem;
-  margin: 4.7rem 0rem 0rem 17rem;
+  margin: -10.4rem 0rem 0rem 17rem;
 }
 .image-card .text h6 {
   margin-bottom: -0.5rem;
