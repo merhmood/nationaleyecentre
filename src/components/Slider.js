@@ -11,7 +11,7 @@ const Slider = () => {
 
         one:'https://nationaleyecenter.s3.af-south-1.amazonaws.com/slider/img4.jpg',
         two: 'https://nationaleyecenter.s3.af-south-1.amazonaws.com/slider/theatre-with-indian-drs.jpg',
-        three: 'https://nationaleyecenter.s3.af-south-1.amazonaws.com/slider/FB_IMG_16206377968709601-1.jpg'
+        three: 'https://nationaleyecenter.s3.af-south-1.amazonaws.com/slider/IMG-20191104-WA0014.jpg'
     }
 
     const [sliderImage, setSliderImage] = useState('')
