@@ -10,13 +10,13 @@
   object-fit: cover;
 }
 .header .nav-links {
-  margin: 1.5rem 0rem 0rem 35rem;
+  margin: 1.5rem 0rem 0rem 25rem;
   width: 63rem;
   font-size: 13px;
 }
 .header .nav-links ul {
   padding-left: 34rem;
-  width: 37rem;
+  width: 27rem;
 }
 .header .nav-links li {
   display: inline;

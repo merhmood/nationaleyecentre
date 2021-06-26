@@ -1,14 +1,14 @@
 .image-table {
   position: relative;
-  width: 89.97rem;
+  width: 98.9rem;
   height: 22.8rem;
   overflow: hidden;
   margin-bottom: 4rem;
 }
 .image-table .image-wrapper {
-  margin-left: -2rem;
+  margin-left: -1rem;
   display: grid;
-  grid-template-columns: 13.5rem 13.5rem 13.5rem 13.5rem 13.5rem 13.5rem 13.5rem;
+  grid-template-columns: 14.5rem 14.5rem 14.5rem 14.5rem 14.5rem 14.5rem 14.5rem;
   width: 98.9rem;
   height: 24rem;
 }

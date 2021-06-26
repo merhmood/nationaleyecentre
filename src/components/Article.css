@@ -1,6 +1,6 @@
 .articles {
   margin-top: 4rem;
-  width: 89.97rem;
+  width: 98.9rem;
   height: 38rem;
   background-color: white;
   border-top-style: solid;
@@ -24,7 +24,7 @@
 .articles .article-container {
   display: grid;
   grid-template-columns: 21.5rem 21.5rem 21.5rem 21.5rem;
-  padding-left: 0.5rem;
+  padding-left: 5.5rem;
 }
 .articles .article-container .article {
   margin: 5rem 0rem 0rem 2.5rem;

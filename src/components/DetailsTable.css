@@ -1,7 +1,8 @@
 .details-table {
+  padding-left: 3rem;
   display: grid;
-  grid-template-columns: 22.5rem 0.1rem 22.5rem 0.15rem 22.5rem 0.1rem 22.5rem;
-  width: 89.97rem;
+  grid-template-columns: 23.5rem 0.1rem 23.5rem 0.15rem 23.5rem 0.1rem 23.5rem;
+  width: 98.9rem;
   height: 24rem;
   background-color: white;
   border-bottom-style: solid;

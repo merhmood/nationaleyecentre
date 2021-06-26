@@ -1,7 +1,8 @@
 footer .footer {
   display: grid;
-  grid-template-columns: 22rem 22rem 22rem 22rem;
+  grid-template-columns: 24.5rem 24.5rem 24.5rem 24.5rem;
   margin-top: 4.2rem;
+  padding-left: 0rem;
 }
 footer .footer h6 {
   color: #0d7522;
