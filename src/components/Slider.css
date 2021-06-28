@@ -31,8 +31,11 @@
 }
 
 @media screen and (max-width: 480px) {
+  .slider {
+    margin-top: 4.4rem;
+  }
   .slider .slider-img {
-    width: 25.79rem;
+    width: 23.44rem;
     height: 13rem;
   }
   .slider-nav {
@@ -40,7 +43,7 @@
     grid-template-columns: 1rem 1rem 1rem;
     position: absolute;
     top: 11rem;
-    left: 13rem;
+    left: 11rem;
     height: 5rem;
     padding-bottom: 10px;
   }

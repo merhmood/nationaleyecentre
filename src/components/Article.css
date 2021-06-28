@@ -61,17 +61,29 @@
 @media screen and (max-width: 480px) {
   .articles {
     margin-top: 70rem;
-    width: 25.79rem;
+    width: 23.44rem;
     height: 30rem;
-    overflow-x: scroll;
   }
-  .articles::-webkit-scrollbar {
-    display: none;
+  .articles h4 {
+    margin-top: 1.5rem;
   }
   .articles .underline {
-    margin-left: 12rem;
+    margin: 0.3rem 0rem 0rem 10.6rem;
   }
   .articles .article-container {
-    margin: -4rem 0rem 0rem -6rem;
+    grid-template-columns: 20rem 20rem 20rem 20rem;
+    margin: -3rem 0rem 0rem -5.51rem;
+    width: 23.44rem;
+    overflow-x: scroll;
+  }
+  .articles .article-container .article {
+    border-radius: 0.5rem;
+  }
+  .articles .article-container .article img {
+    border-radius: 0.5rem 0.5rem 0rem 0rem;
+    width: 17.35rem;
+  }
+  .articles .article-container::-webkit-scrollbar {
+    display: none;
   }
 }

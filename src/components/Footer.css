@@ -27,10 +27,11 @@ footer .copyright {
   footer .footer {
     display: block;
     margin-top: 14rem;
-    width: 25rem;
+    width: 23.44rem;
   }
   footer .copyright {
     margin-top: -1.5rem;
-    width: 25.79rem;
+    width: 23.44rem;
+    font-size: 0.7rem;
   }
 }

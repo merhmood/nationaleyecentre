@@ -35,7 +35,7 @@
 
 @media screen and (max-width: 480px) {
   .details-table {
-    margin: -3rem 0rem 0rem -2rem;
+    margin: -3rem 0rem 0rem -3.2rem;
     grid-template-columns: 24rem;
     background-color: rgba(0, 0, 0, 0);
     border: none;
@@ -49,6 +49,9 @@
   .details-table .table img {
     width: 4rem;
     height: 4rem;
+  }
+  .details-table .table p {
+    font-size: 0.65rem;
   }
   .details-table .seperator {
     display: none;
