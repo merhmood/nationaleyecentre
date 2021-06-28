@@ -57,3 +57,21 @@
   text-overflow: ellipsis;
   font-size: 0.78rem;
 }
+
+@media screen and (max-width: 480px) {
+  .articles {
+    margin-top: 70rem;
+    width: 25.79rem;
+    height: 30rem;
+    overflow-x: scroll;
+  }
+  .articles::-webkit-scrollbar {
+    display: none;
+  }
+  .articles .underline {
+    margin-left: 12rem;
+  }
+  .articles .article-container {
+    margin: -4rem 0rem 0rem -6rem;
+  }
+}

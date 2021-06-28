@@ -9,3 +9,9 @@
 .about p {
   font-size: 0.8rem;
 }
+
+@media screen and (max-width: 480px) {
+  .about {
+    margin-left: 0rem;
+  }
+}

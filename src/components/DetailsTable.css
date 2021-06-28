@@ -32,3 +32,25 @@
 .details-table .seperator-hide {
   display: none;
 }
+
+@media screen and (max-width: 480px) {
+  .details-table {
+    margin: -3rem 0rem 0rem -2rem;
+    grid-template-columns: 24rem;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+  }
+  .details-table .table {
+    background-color: white;
+    padding: 2rem 2rem;
+    border-radius: 1.2rem;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  }
+  .details-table .table img {
+    width: 4rem;
+    height: 4rem;
+  }
+  .details-table .seperator {
+    display: none;
+  }
+}

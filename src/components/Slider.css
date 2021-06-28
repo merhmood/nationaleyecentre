@@ -29,3 +29,23 @@
 .slider-nav .slider-nav-changes {
   opacity: 0.4;
 }
+
+@media screen and (max-width: 480px) {
+  .slider .slider-img {
+    width: 25.79rem;
+    height: 13rem;
+  }
+  .slider-nav {
+    display: grid;
+    grid-template-columns: 1rem 1rem 1rem;
+    position: absolute;
+    top: 11rem;
+    left: 13rem;
+    height: 5rem;
+    padding-bottom: 10px;
+  }
+  .slider-nav p {
+    width: 8px;
+    height: 8px;
+  }
+}

@@ -22,3 +22,15 @@ footer .copyright {
   border-color: #cccaca;
   border-width: 2px;
 }
+
+@media screen and (max-width: 480px) {
+  footer .footer {
+    display: block;
+    margin-top: 14rem;
+    width: 25rem;
+  }
+  footer .copyright {
+    margin-top: -1.5rem;
+    width: 25.79rem;
+  }
+}

@@ -35,3 +35,31 @@
   font-size: 1.23rem;
   font-weight: 500;
 }
+
+@media screen and (max-width: 480px) {
+  .image-card {
+    top: 162rem;
+    left: 3rem;
+    width: 19rem;
+    height: 7.5rem;
+    border-radius: 20px;
+  }
+  .image-card .image {
+    margin: 0.8rem 0rem 0rem 1rem;
+    width: 5.5rem;
+    height: 5.5rem;
+    object-position: -14px 0px;
+  }
+  .image-card .text {
+    font-size: 1.8rem;
+    margin: -5.9rem 0rem 0rem 9rem;
+  }
+  .image-card .text h6 {
+    font-size: 0.75rem;
+    width: 11rem;
+  }
+  .image-card .text p {
+    font-size: 0.75rem;
+    width: 11rem;
+  }
+}

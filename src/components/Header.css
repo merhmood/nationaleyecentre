@@ -23,3 +23,17 @@
   padding: 1.3rem;
   cursor: pointer;
 }
+
+@media screen and (max-width: 480px) {
+  .header {
+    width: 25.79rem;
+  }
+  .header .nav-links {
+    display: none;
+  }
+  .header .logo img {
+    margin: 0.4rem -0.2rem -0.2rem -0.5rem;
+    width: 5.9rem;
+    height: 3.9rem;
+  }
+}
