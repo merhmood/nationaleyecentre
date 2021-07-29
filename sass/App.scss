@@ -1,0 +1,203 @@
+.app {
+  margin: 0;
+  padding: 0;
+  background-image: url("https://nationaleyecenter.s3.af-south-1.amazonaws.com/Hexagon-dotted-connect-line-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+@import "./variables";
+@import "./_header";
+@import "./slider";
+@import "./image-card";
+@import "./image-table";
+@import "./details-table";
+@import "./article";
+@import "./footer";
+
+@media screen and (max-width: 500px) {
+  .header {
+    .logo {
+      img {
+        margin-left: -2em;
+        width: 120px;
+      }
+    }
+    .nav-links {
+      display: none;
+    }
+  }
+  .slider {
+    img {
+      height: 35vh;
+    }
+    .slider-nav {
+      display: flex;
+      top: 82%;
+      left: 45%;
+      p {
+        width: 12px;
+        height: 12px;
+        margin-right: 0.5em;
+      }
+      .slider-nav__changes {
+        width: 12px;
+        height: 12px;
+      }
+    }
+  }
+  .image-card {
+    height: 22vw;
+    width: 72vw;
+    border-radius: 30px;
+    top: 415vh;
+    left: 10%;
+    img {
+      width: 85px;
+      height: 85px;
+      margin-left: 0.2em;
+      border-width: 3px;
+    }
+    .text {
+      margin: -0.1em 0 0 1.3em;
+      h6 {
+        width: 45vw;
+        font-size: 0.75rem;
+      }
+      p {
+        font-size: 0.75rem;
+      }
+    }
+  }
+  .image-table {
+    margin-top: 1.5em;
+    padding-top: 1.5em;
+    background-color: white;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    outline-style: solid;
+    outline-width: 1px;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+    .image-wrapper {
+      display: flex;
+      justify-content: space-evenly;
+      margin: 0 0 -0.3em 1em;
+      width: 500vw;
+      overflow: visible;
+      div {
+        margin-right: 1em;
+        img {
+          width: 100%;
+          height: 80%;
+          object-fit: cover;
+          border-radius: 20px;
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+      }
+    }
+    .overlay {
+      display: none;
+    }
+  }
+  .details-table {
+    display: flex;
+    flex-direction: column;
+    margin: -1em 0 0 -1.5em;
+    background-color: rgba(0, 0, 0, 0);
+    border-style: none;
+    .table {
+      width: 75%;
+      margin: 1em auto;
+      background-color: white;
+      padding: 2em;
+      box-sizing: border-box;
+      border-radius: 20px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.13);
+      img {
+        width: 30%;
+      }
+    }
+    .seperator {
+      display: none;
+    }
+    .seperator-hide {
+      display: none;
+    }
+  }
+  .articles {
+    padding: 2em 0 3em 0;
+    h4 {
+      text-align: left;
+      margin-left: 2.1em;
+    }
+    .underline {
+      width: 20%;
+      margin: 1em 0 1em 2.1em;
+    }
+    div {
+      overflow-x: scroll;
+      overflow-y: hidden;
+      &::-webkit-scrollbar {
+        display: none;
+      }
+      .article-container {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 0;
+        width: 300vw;
+        height: 65vh;
+
+        .article {
+          width: 65vw;
+          img {
+            height: 50%;
+          }
+        }
+      }
+    }
+  }
+  footer {
+    margin-top: 15em;
+    .footer {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      margin-left: 0;
+      padding: 1em 1.5em 0 1.5em;
+      box-sizing: border-box;
+      .about {
+        width: 100%;
+      }
+      .newsletter {
+        width: 100%;
+        input {
+          margin-top: 1em;
+        }
+        button {
+          margin-top: 1em;
+        }
+      }
+      .clinical-services {
+        width: 100%;
+      }
+      .get-in-touch {
+        width: 100%;
+        p {
+          margin-top: -4em;
+        }
+      }
+    }
+    .copyright {
+      padding: 1em;
+      font-size: 0.85rem;
+      box-sizing: border-box;
+    }
+  }
+}

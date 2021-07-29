@@ -1,7 +1,5 @@
 import React from 'react'
 
-import './GetInTouch.css'
-
 const GetInTouch = () => {
     return (
         <div className='get-in-touch'>
@@ -26,7 +24,7 @@ const GetInTouch = () => {
                 <img src="https://nationaleyecenter.s3.af-south-1.amazonaws.com/social+media/twitter.png" alt="socialMedia" />
                 <p>www.twitter.com/neckaduna</p>
             </div>
-            <div>
+            <div className='location'>
                 <img src="https://nationaleyecenter.s3.af-south-1.amazonaws.com/social+media/real-estate.png" alt="socialMedia" />
                 <p>National Eye Centre Off Nnamdi Azikiwe By-Pass Mando PMB 2267 Kaduna.National Eye Centre Off Nnamdi Azikiwe By-Pass Mando PMB 2267 Kaduna.</p>
             </div>

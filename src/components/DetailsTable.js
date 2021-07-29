@@ -1,6 +1,5 @@
 import React from 'react'
 
-import './DetailsTable.css'
 
 const DetailsTable = () => {
 
@@ -47,7 +46,7 @@ const DetailsTable = () => {
                             <h4>{title}</h4>
                             <p>{details}</p>
                         </div>
-                        <div className={counter === 4 ? 'seperator-hide': 'seperator'}></div>
+                        <div key={0} className={counter === 4 ? 'seperator-hide': 'seperator'}></div>
                         </>
                     );
                 })

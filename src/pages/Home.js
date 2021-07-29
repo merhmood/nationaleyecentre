@@ -7,8 +7,6 @@ import DetailsTable from '../components/DetailsTable'
 import Article from '../components/Article'
 import Footer from '../components/Footer'
 
-import './Home.css'
-
 const Home = () => {
     return (
         <div className='home'>

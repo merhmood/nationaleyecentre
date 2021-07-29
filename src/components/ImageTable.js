@@ -1,6 +1,5 @@
 import React from 'react'
 
-import './ImageTable.css'
 
 const imageTable = [
     {

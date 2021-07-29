@@ -1,5 +1,4 @@
 import React from 'react'
-import './ClinicalServices.css'
 
 const ClinicalServices = () => {
     return (

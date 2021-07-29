@@ -1,8 +1,6 @@
 import React,{useState} from 'react'
 import { motion } from 'framer-motion'
 
-import './Slider.css'
-
 const Slider = () => {
 
     let sliderShowChange = '';
@@ -47,9 +45,9 @@ const Slider = () => {
            onLoad={startSlider}
            />
            <div className='slider-nav'>
-               <p onClick={()=>sliderNavHandler(sliderImageArray.one)} className={sliderImage === sliderImageArray.one ? '' :'slider-nav-changes'}></p>
-               <p onClick={()=>sliderNavHandler(sliderImageArray.two)} className={sliderImage === sliderImageArray.two ? '' :'slider-nav-changes'}></p>
-               <p onClick={()=>sliderNavHandler(sliderImageArray.three)} className={sliderImage === sliderImageArray.three ? '' :'slider-nav-changes'}></p>
+               <p onClick={()=>sliderNavHandler(sliderImageArray.one)} className={sliderImage === sliderImageArray.one ? '' :'slider-nav__changes'}></p>
+               <p onClick={()=>sliderNavHandler(sliderImageArray.two)} className={sliderImage === sliderImageArray.two ? '' :'slider-nav__changes'}></p>
+               <p onClick={()=>sliderNavHandler(sliderImageArray.three)} className={sliderImage === sliderImageArray.three ? '' :'slider-nav__changes'}></p>
            </div> 
         </div>
     )

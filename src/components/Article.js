@@ -1,6 +1,5 @@
 import React from 'react'
 
-import './Article.css'
 
 const Article = () => {
 
@@ -37,22 +36,24 @@ const Article = () => {
         <div className='articles'>
             <h4>See our latest article</h4>
             <div className='underline'></div>
-            <div className='article-container'>
-                {
-                    articles.map(article=>{
+            <div>
+                <div className='article-container'>
+                    {
+                        articles.map(article=>{
 
-                        const {id, img, title, details} = article
+                            const {id, img, title, details} = article
 
-                        return(
-                            <div key={id} className='article'>
-                                <img src={img} alt="articleImg" />
-                                <h4>{title}</h4>
-                                <p>{details}</p>
-                                <h5>Read more</h5>
-                            </div>
-                        );
-                    })
-                }
+                            return(
+                                <div key={id} className='article'>
+                                    <img src={img} alt="articleImg" />
+                                    <h6>{title}</h6>
+                                    <p>{details}</p>
+                                    <h5>Read more</h5>
+                                </div>
+                            );
+                        })
+                    }
+                </div>
             </div>
         </div>
     )

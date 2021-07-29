@@ -4,8 +4,6 @@ import Newsletter from './Newsletter'
 import ClinicalServices from './ClinicalServices'
 import GetInTouch from './GetInTouch'
 
-import './Footer.css'
-
 const Footer = () => {
     return (
         <footer>
