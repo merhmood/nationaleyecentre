@@ -13,7 +13,7 @@
   }
   .underline {
     width: 5%;
-    height: 0.6vh;
+    height: 0.3rem;
     margin: 2em auto;
     background-color: $asset-color;
   }
@@ -24,7 +24,8 @@
     padding: 0 4em;
 
     .article {
-      width: 20vw;
+      width: 20%;
+      height: 30rem;
       border-style: solid;
       border-width: 1px;
       border-color: $border-color;
@@ -39,12 +40,12 @@
         overflow: hidden;
       }
       h6 {
-        font-size: 1rem;
+        font-size: 0.95rem;
         margin: 1em 1em;
       }
       p {
         margin: 1em 1em;
-        font-size: 0.8rem;
+        font-size: 0.75rem;
       }
       h5 {
         margin: 1em 1em;
